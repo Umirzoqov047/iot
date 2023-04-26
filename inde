@@ -1,0 +1,2104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <pre>
+    Internet of Things nima?
+====
+#Internet qurilmalari (ang. Internet of Things  (IoT)) boshqa qurilmalar va tizimlar bilan ma'lumotlarni Internet orqali ulash va almashtirish uchun datchiklar, dasturiy ta'minot va boshqa texnologiyalar bilan o'rnatilgan fizik obyektlar ("things") tarmog'iga aytiladi
+====
+Real vaqt tizimida ishlovch qurilmalar
+====
+Aqlli uy
+====
+Aqlli shahar konsepsiyasi
+++++
+Internet of Things qanday sohalarda qo'llaniladi?
+====
+#tibbiyot, IT-soha, qishloq xo'jaligi, ta'lim, sanoat va boshqalar 
+====
+san'at, madaniyat, tog' sanoati, ijtimoiy soha
+====
+ijtimoiy soha, metallurgiya, avtosanoat
+====
+iqtisodiyot, san'at, harbiy
+++++
+IoT da qanday qurilmalar orqali tashkil qilinadi?
+====
+#rasberry pi4, arduino UNO
+====
+prosessor, monitor
+====
+kommutator, sv-modul
+====
+Poexab, NVR
+++++
+IoT da tarmoq texnologiyalari qaysilari qo'llanilishi mumkin?
+====
+#5G, LoraWAN, NGN
+====
+Bial-up, ADSL2, 2G 
+====
+3G, NFS, GSM
+====
+Bluetooth, IK-port, GPON
++++
+AWS IoT platformasi qanday xususiyatlarga ega?
+====
+#AWS IoT xavfsizlik, ma?lumotlarni shifrlash va qurilma ma?lumotlariga kirishni boshqarish kabi xizmatlarni o?z ichiga oladi. AWS IoT xavfsiz va tasdiqlangan bulutli infratuzilma va IoT tarmoqlari asosida qurilgan va milliardlab qurilmalar va trillionlab xabarlarni qamrab oladi. AWS IoT yakuniy yechimlarni yaratish uchun boshqa AWS xizmatlari bilan birlashadi
+====
+Ma'lumotlarni masofadan saqlash va IoT qurilmalarini boshqarish uchun ishlatiladi, bu ma'lumotlarni tarmoqdagi bir nechta qurilmalarga taqdim etadi
+====
+ob'ektlari tovarlarni kuzatish, joylashtirish, saralash va tashish uchun internetga ulangan robotlar
+====
+Raqamli va jismoniy infratuzilmaning doimiy monitoringi ish faoliyatini optimallashtirish, samaradorlikni oshirish va xavfsizlik xatarlarini kamaytirish
+++++
+IoT qurilma ta'minoti nima?
+====
+#boshqaruv prosessorlari, tashqi muhitdan turli signallarni qabul qiluvchi sensorlar, ma'lumotlarni qayat ishlaydigan va tahlil qiladigan periferik mashinalar
+====
+3D printer, operatsion tizim, driver
+====
+utilitlar, yadro modullari, RJ45
+====
+Ceriocontrol, IVMS4500, CPUID
+++++
+Mikrokontroller tushunchasiga ta'rif bering
+====
+#elektron qurilmalarni boshqarish uchun mo'ljallangan mikrosxema
+====
+elektr manbasi
+====
+elektr uzatgich
+====
+sovutish qurilmasi
+++++
+Mikrokontrollerning qanday turlari mavjud?
+====
+#o'rnatilgan 8-razryadli mikrokontroller, 16- va 32-razryadli mikrokontroller, raqamli signal prosessorlari 
+====
+STM32, Arduino Uno, AMT mikrokontrollerlari
+====
+Rasberry Pi, IntelCoreI7, SSD
+====
+SoftSwich, NVR, Poexab
+++++
+Kontrollerning asosiy maqsadi nima?
+====
+#real obektlarni boshqarish
+====
+uzluksiz ta’monitni ta’minlab berish
+====
+aloqa kanallarini boshqarish
+====
+simsiz boshqarish
+++++
+Mikrokontroller bu-?
+====
+#mikroprotsessor yelementlar bazasida ishlovchi kontroller
+====
+analog-raqamli o’zgartiruvchi qurilma
+====
+demodulyator
+====
+Raqamli-analog o’zgartiruvchi qurilma
+++++
+IoT atamasi kim tomonidan asos solingan?
+====
+#Kevin Eshton
+====
+Tom Jefri
+====
+Jek Uillams
+====
+Brayn Rich
+++++
+Smart so’zining manosi nima?
+====
+#Aqlli
+====
+Ishonchli
+====
+Tezkor
+====
+Moslashuvchan
+++++
+Kam quvvatli tarmoq, uzoq masofali tarmoq bu - 
+====
+#LPWAN
+====
+WAN
+====
+ZigBee
+====
+Bluetooth
+++++
+ESP8266 nima?
+====
+#Mikrokontroller
+====
+Sensor
+====
+Actuator
+====
+Akselorometr
+++++
+Gyroscopening asosiy vazifasi nima?
+====
+#obyekt tezligining vaqtga nisbatan o‘zgarish tezligini aniqlaydi
+====
+yorug’likni aniqlaydi
+====
+xavfli gazlar mavjudligini aniqlaydi
+====
+burchak tezligini o‘lchaydi 
+++++
+OSI modelining fizik qatlam protokolini belgilaydigan modulyatsiya usuli bu -
+====
+#LoRaMac
+====
+LoRa
+====
+LoRaWAN
+====
+LPWAN
+++++
+ZigBee qanday chastotada ishlaydi?
+====
+#2.4 GHs
+====
+5.6 GHs	
+====
+8.6 GHs
+====
+3.2 GHs	
+++++
+ZWave qanday chastotada ishlaydi?
+====
+#908 MGs
+====
+706 MGs
+====
+308 MGs	
+====
+108 MGs
+++++
+Operatsion tizimli plata bu ...
+====
+#Raspberry Pi                 
+====
+Arduino NANO            
+====
+Arduino UNO
+====
+ESP32
+++++
+Arduino UNO da nechta analog pin mavjud?
+====
+#6 ta
+====
+5 ta
+====
+7 ta
+====
+8 ta
+++++
+UART bu …
+====
+#Universal qabul qiluvchi
+====
+Serial qabul qiluvchi
+====
+Ketma-ket qabul qiluvchi
+====
+Parallael qabul qiluvchi
+++++
+Pyezonurlatgichlar qanday turlarda bo’ladi?
+====
+# Generatorli va generatorsiz
+====
+ Yuqori chastotali va pas chastotali
+====
+ Akustik va akustik bo’lmagan
+====
+ Pyezonurlatgichlar turlarga bo’linmaydi
+++++
+digitalWrite ( ) – dasturda qanday vasifani bajaradi?
+====
+# Raqamli signal jo’natish
+====
+ Raqamli signalni qabulqilish
+====
+ Raqamli signalni to’xtatib turish
+====
+ Pinlarni tanishtirish
+++++
+Vazifasi quvvatni uzush yoki ulashdan iborat bo’lgan qurilma nima?
+====
+# Button
+====
+ Tranzistor
+====
+ Switch
+====
+ Pin
+++++
+Jarayon deganda  nima  tushiniladi?
+====
+ bu bir jarayondan boshqasiga uzatiladigan ma’lumotlar ketma-ketligi bo`lib, ma’lumotlar oqimi atamasi odatda modellar oqimi yoki ma’lumotlar oqimlari tarmog‘ini hisoblash modeli doirasida qo‘llaniladi
+====
+# bu holatlarni, hodisalarni, biror narsaning rivojlanish yo‘nalishini izchil o‘zgartirish
+====
+ bu qurilmalar o’rtasidagi aloqalarni boshqasiga uzatiladigan jarayonlar  ketma-ketligi bo`lib, ma’lumotlar oqimi atamasi odatda modellar oqimi yoki ma’lumotlar oqimlari tarmog‘ini hisoblash modeli doirasida qo‘llaniladi
+====
+Tabiatdagi barcha hodisalar
+++++
+Oqimlarni hisoblash modeli nima?
+====
+ # (data flow-ma’lumotlar oqimi) grafik shaklida taqdim etiladi, uning tugunlari jarayonlardir, boshqalari esa ma’lumotlar oqimidir
+====
+ ma’lumot oqimini o‘zgartirish uchun mo‘ljallangan hisoblash birligi. Jarayon hayotining boshlang‘ich va oxirgi bosqichiga ega. Jarayon vaqt o‘tishi bilan sodir bo‘ladi. Jarayonda ma’lumotlarni uzatishi, qabul qilishi yoki boshqa jarayonlarni boshqarishi mumkin. Jarayon quyidagilarga mo‘ljallangan
+====
+ Markaziy protsessor manbalarini bir nechta iste'molchilarga tarqatish; 
+algoritmlarni bir-biridan ajratish (xotirani himoya qilish mexanizmi mavjud bo'lganda)
+++++
+O’rnatilgan tizimlarda deley(1000) nimani  anglatadi?
+====
+#Natijani 1000 ms davomida ushlab turish uchun
+====
+1000 sonini  chop etish uchun
+====
+1000  marta sikl davom etishi uchun
+====
+1000 ta sxemada  dasturni  yozish  uchun
+++++
+ Raqamli kiritish chiqarish funksiyalarini toping?
+====
+# pinMode();digitalWrite();digitalRead()
+====
+ pinMode(pin, mode);Analog kirish / chiqishC) analogRead (); analogReference (); analogWrite ().
+====
+Barcha javob to’g’ri
+++++
+Berilgan kiritish/chiqarish vazifasini bajarish uchun chiqish yoki kirish   pinlari qanday o`rnatiladi?
+====
+pinMode();digitalWrite();digitalRead()
+====
+# pinMode(pin, mode); Analog kirish / chiqish
+====
+analogRead ();  analogReference (); analogWrite ().
+====
+Barcha javob to’g’ri
+++++
+Analog kirish / chiqish
+# analogRead ();
+====
+ analogReference ();
+====
+ analogWrite ().
+====
+ Barcha javob to’g’ri
+++++
+O’rnatilgan tizimlar apparat tashkil etuvchilari personal yoki superkompyuterlarga nisbatan ...?
+====
+# ko’proq cheklangan
+====
+ ko’proq cheklanmagan 
+====
+ nisbatan quvvatilroq
+====
+ juda tezroq
+++++
+
+O’rnatilgan tizimlar ... bajarish uchun loyihalashtiriladi.
+====
+# tayinlangan funksiyalarni
+====
+ umumiy vazifalarni
+====
+ ixtiyoriy vazifalarni
+====
+ tayinlanmagan funksiyalarni
+++++
+
+O’rnatilgan tizim namunasini ko’rsating?
+====
+# smartfon
+====
+ noutbuk
+====
+ netbuk
+====
+ personal kompyuter
+++++
+
+O’rnatilgan tizimlar bu kompyuter tizimlari bo’lib, boshqa kompyuter turlariga nisbatan ...
+====
+# yaxshi sifat va ishonchlikni talab etadi
+====
+ o’rtacha sifat va ishonchlikni talab etadi
+====
+ yomon sifat va ishonchlikni talab etadi
+====
+ qisman ishonchlilikni talab etadi
+++++
+
+O’rnatilgan tizimlarni loyihalashninig sharsharali modeli, ...
+====
+# bunda tizimlarni ishlab chiqish bosqichida bir oqim natijalari keyingisi uchun kiruvchi hisoblanadi 
+====
+ bunda tizimlarni ishlab chiqish bosqichida bir oqim natijalari keyingisi uchun kiruvchi bo’lib hisoblanmaydi 
+====
+ bunda tizimlarni ishlab chiqish bosqichida bir oqim natijalari oldingisi uchun kiruvchi bo’lib hisoblanmaydi 
+====
+ bunda tizimlarni ishlab chiqish bosqichida bir oqim natijalari hyech nimaga ta’sir qilmaydi
+++++
+
+O’rnatilgan tizimlarni loyihalash modellari
+====
+# sharshara, spiral
+====
+ spiaral, prujina
+====
+ sharshara, chuqqi
+====
+ spiral, struktura
+++++
+
+O’rnatilgan tizimlarni loyihalashtirish va ishlab chiqish jarayonlarini to’g’ri bosqichlarini ko’rsating.
+====
+# arxitekturasini yaratish, arxitekturasini bajarish, tizimni testlash, tizimni qullab quvvatlash.
+====
+ arxitekturasini yaratish, arxitekturasini bajarish, tizimni qullab quvvatlash.
+====
+ arxitekturasini yaratish, arxitekturasini bajarish, tizimni testlash.
+++++
+
+O’rnatilgan tizimlarni loyihalashtirish nechta bosqichdan iborat.
+====
+# 4
+====
+ 3
+====
+ 5
+====
+ 6
+++++
+
+O’rnatilgan tizimlarni "arxitekturasini yaratish" bosqichlari nechta pog’onadan iborat?
+====
+# 6
+====
+ 5
+====
+ 4
+====
+ 3
+++++
+
+O’rnatilgan tizimlar arxitekturasi - bu …
+====
+# axborotni mayda qismlarga bo’lingan holda bajarilishini ko’rsatmaydigan, o’rnatilgan qurilmalar abstraksiyasidir.
+====
+ axborotni mayda qismlarga bo’lingan holda bajarilishini ko’rsatadigan, o’rnatilgan qurilmalar abstraksiyasidir.
+====
+ dasturiy vositani mayda qismlarga bo’lingan holda bajarilishini ko’rsatadigan, o’rnatilgan qurilmalar abstraksisidir.
+====
+ dasturiy komplekslar yig’indisidir
+++++
+
+O’rnatilgan tizimlar mo’mkin bo’lgan modellari to’g’ri ketma-ketligida sanang.
+====
+# Application Software Layer, System Software Layer, Hardware Layer
+====
+ Application Software Layer, Hardware Layer
+====
+ o’rnatilgan tizimlar modeli mavjud emas.
+====
+ Applied software Layer, Implementing Software Layer, Finding hardware Layer
+++++
+
+Real vaqt o’rnatilgan tizimi - …
+====
+# hodisalarga reaksiyasi vaqt bilan kafolatlangan hisoblash tizimi.
+====
+ o’rnatilgan tizimlar ichidagi hisoblash tizimi
+====
+ bu o’rnatilgan operasion tizim
+====
+ bu tizimli dasturiy ta’minot
+++++
+
+Real vaqt tizimlari nechta guruhlari mavjud?
+====
+# 2
+====
+ 3
+====
+ 4
+====
+ 5 
+++++
+
+To’g’ri ko’rsatilgan real vaqt tizimlarini ko’rsating.
+====
+# yumshoq(qat’iy bo’lmagan) real vaqt tizimlari, qattiq(qat’iy) real vaqt tizimlari
+====
+ qattiq real vaqt tizimlari, qat’iy real vaqt tizimlari
+====
+ yumshoq real vaqt tizimlari, mustaqil real vaqt tizimlari
+====
+ mustaqil real vaqt tizimlari, mustaqil bo’lmagan real vaqt tizimlar
+++++
+
+ "Real vaqt tizimi ishi maqsadi munosabatiga ko’ra real vaqt talablariga rioya etish katastrofik xisoblanmaydi" so’z qaysi real vaqt tizimlari haqida borayapti?
+====
+# yumshoq(qat’iy bo’lmagan) real vaqt tizimlari
+====
+ qattiq real vaqt tizimlari
+====
+ mustahkam real vaqt tizimlari
+====
+ mustaqil real vaqt tizimlari
+++++
+
+ "Real vaqt talablariga rioya etmaslik tizim maqsadli funksiyasini bajarilmasligiga olib keladi" so’z qaysi real vaqt tizimlari haqida borayapti?
+====
+# qattiq(qat’iy) real vaqt tizimlari
+====
+ yumshoq real vaqt tizimlari
+====
+ mustaqil real vaqt tizimlari
+====
+ mustahkam real vaqt tizimlari
+++++
+
+O’rnatilgan tizim va real vaqt tizimi sinonimmi?
+====
+# Yo’q
+====
+ Ha
+====
+ Ba’zan
+====
+ Qachondir
+++++
+
+Nima real vaqt tizimlari uchun talab qilinmaydi ?
+====
+# boshqaruvchi tashkil qiluvchilar
+====
+ Prosessor
+====
+ opertiv xotira
+====
+ prosessor va operativ xotira
+++++
+
+Quyidagilardan qaysi biri real vaqt tizmida ishlaydi?
+====
+# aviabiletlarni rezerv qilish tizmlari
+====
+ barcha xisoblash tizmlari
+====
+ mobil xisoblash tizimlari
+====
+ smartfonlar
+++++
+
+O’rnatilgan hisoblash tizimi (embedded system) – …
+====
+# aniqlangan funksiyalar jamlanmasini bajaruvchi ixtisoslashtirilgan axborot-boshqaruv tizimi
+====
+ ixtisoslashtirilmagan axborot-boshqaruv tizimi
+====
+ aniqlangan funksiyalar jamlanmasini bajaruvchi ixtisoslashtirilmagan axborot-boshqaruv tizimi
+====
+ aniqlanmagan funksiyalar jamlanmasini bajaruvchi ixtisoslashtirilmagan axborot-boshqaruv tizimi
+++++
+
+Har qanday hisoblash tizimini o’zida o’rnatilga tizim deb hisoblash mumkin, qaysindaki…
+====
+# shaxsiy kompyuter emas, portativ yoki undan kattaroq universal kompyuterda
+====
+ shaxsiy kompyuter, portativ yoki undan kattaroq universal kompyuterda
+====
+ shaxsiy kompyuter, portativ kompyuter yemas balki undan kattaroq universal kompyuterda
+====
+ shaxsiy , portativ kompyuterda lekin undan kattaroq universal kompyuterda yemas
+++++
+
+O’zida o’rnatilga tizimlarning bo’linishi - …
+====
+# bu maydon jihatidan tarqatilgan o’rnatilgan tizim
+====
+ bu maydon jihatidan tarqatilmagan o’rnatilgan tizim
+====
+ tarqatilmagan o’rnatilgan tizim
+====
+ bu bo’linmagan o’rnatilgan tizim
+++++
+
+Bo’lingan o’rnatilgan tizimlar qanday harakterga yega?
+====
+# komponentalar orasida aloqaning kuchsiligi
+====
+ obektlar orasida aloqaning mavjudligi
+====
+ tarmoq komponentalari orasidagi aloqning kuchsizligi
+====
+ tarmoq komponentalari orasidagi aloqning mavjudligi
+++++
+
+O’rnatilgan hisoblash tizimlarinig o’ziga xos xususiyatini belgilang.
+====
+# katta bo’lmagan aparat resurslari; real vaqt shkalasi; yuqori ishonchlilik va xavfsizlik talablariga rioya qilish;
+====
+ katta bo’lmagan aparat resurslari; real vaqt shkalasi; yerganomika talablariga rioya qilish;
+====
+ katta  aparat resurslari; real vaqt shkalasi; yuqori ishonchlilik va xavfsizlik talablariga rioya qilish;
+====
+ katta  aparat resurslari; real bo’lmagan vaqt shkalasi; yuqori ishonchlilik va xavfsizlik talablariga rioya qilish;
+++++
+
+O’rnatilgan tizimlar barpo qilingan asosiy komponentani ko’rsating
+====
+# kontrollerlar
+====
+ operativ xotira
+====
+ kesh xotira
+====
+ boshqaruv qurilmasi
+++++
+
+Kontroller quyidagilarni boshqarishi mumkin-…
+====
+# fuksional bloklar va kompyuter tashqi qurilmalarini
+====
+ funksional bloklar va o’zini
+====
+ o'zini va komp. tashqi qurilmalarini
+====
+ funksional bloklar, tashqi qurilmalar va inson omilini
+++++
+
+Sanoat va bortovoy kontrollerlarga qo’yiladigan talablar?
+====
+# Ishonchli va xavfsiz
+====
+ resurslar bilan
+====
+ texik savollar bilan tashkillashtirilgan
+====
+ hech qanday talab qo’yilmaydi
+++++
+
+Bajarilish joyiga qarab kontroller turlari?
+====
+# integrallashgan sanoat, instrumental, bort kontrollerlar, mikrokontrollerlar
+====
+ sanoat, instrumental, bort kontrollerlar,  ayerokosmik mikrokontrollerlar
+====
+ sanoat, instrumental, bort kontrollerlar,  avtomobil mikrokontrollerlar
+====
+ sanoat, instrumental, bort kontrollerlar, uchish aparatlari kontrollerlari, mikrokontrollerlar
+++++
+
+Kontroller dasturlanishi darajasi bo’yicha quyidagilarga bo’linadi
+====
+# mantiqiy dasturlashtiriladigan, daturlashtiriladigan, maxsuslashtirilgan
+====
+ mantiqiy dasturlashtiriladigan, daturlashtirilmaydigan, maxsuslashtirilgan
+====
+ mantiqiy dasturlashtiriladigan, daturlashtirilmaydigan, maxsuslashtirilmaydigan
+====
+ mantiqiy dasturlashtiriladigan, dasturlashtiriladigan, umumiy
+++++
+
+Kontrollerlarni bevosita dasturlash mumkinmi?
+====
+# yo’q, apparat resurslar kamligi uchun
+====
+ ha, apparat resurslar ko’pligi uchun
+====
+ yo’q, dasturiy vositaar kamligi uchun
+====
+ ha, dasturiy vositalar ko’pligi uchun
+++++
+
+Chipdagi tizim (System on a Chip, SoS) - 
+====
+# umuman olganda bir chipdagi integrallashgan prosessorli tizim
+====
+ umuman olganda bir chipdagi integrallashgan kontrollerli tizim
+====
+ umuman olganda bir chipdagi integrallashgan boshqaruv qurilmali tizim
+====
+ umuman olganda bir chipdagi integrallashgan xotira modulli tizim
+++++
+
+DVB (Digital Video Broadcasting) nima?
+====
+# Java ga asoslangan raqamli TV ni loyihalashda qo’llaniladigan standart
+====
+ Java ga asoslangan ma’lumotlarni raqamli TV ga uzatishda qo’llaniladigan standart 
+====
+ Java ga asoslangan o’rnatilgan tizimni loyihalashda ishlatiladigan standart
+====
+ Java ga asoslangan raqamli TV ni baxolashda qo’llaniladigan standart
+++++
+
+Registr bu - ?
+====
+# Ikkilik sanoq sistemasidagi ma’lumotlar (mashina so’zi)ni  vaqtincha saqlovchi yelektron sxema
+====
+ mashina operasiyasida qatnashuvchi son yoki simvol
+====
+ bir necha sodda amallarni buyruqlar bo’yicha bajaruvchi qurilma
+====
+ bank yelektron yacheykasi 
+++++
+
+Mantiqiy ko’paytirish amalini  … bajaradi
+====
+# VA mantiqiy yelementi
+====
+ YoKI mantiqiy yelementi
+====
+ INKOR mantiqiy yelementi
+====
+ YoKI YeMAS mantiqiy yelementi
+++++
+
+Energiya uzatuvchi, kanalni ochish yoki yopishga mo’ljallangan qurilma … nomlanadi?
+====
+# Deshifrator
+====
+ Kommutator
+====
+ Kalit yelementi 
+====
+ Konsentrator
+++++
+
+Qaysi qurilma rejimni o’rnatadi va prosessor boshqarish va rejimini tekshirish uchun foydalanilgan registrlarni tekshiradi?
+====
+# Kiritish/chiqarish kontrolleri
+====
+ Xotirani boshqarish qurilmasi
+====
+ Tezkor xotira
+====
+ Qurilmalar drayveri
+++++
+
+Qurilma drayverining qanday funksiyasi boshqa aparat ta’minotini dasturiy ta’minot orqali boshqarishga imkon beradi?
+====
+# Hardware Enable
+====
+ Hardware Startup
+====
+ Hardware Release
+====
+ Hardware Acquire
+++++
+
+Uzilishlarni qayta ishlash jarayonining qaysi biri qayta ishlashni kodlashtiradi?
+====
+# Interrupt-Handler Servicing
+====
+ Interrupt-Handling Startup
+====
+ Interrupt-Handling Shutdown
+====
+ Interrupt-Handling Enable
+++++
+
+Qanday rejimda bir qancha ma’lumot tiplari aktiv holatda bo’ladi va ishlatiladi?
+====
+# bandlik holatida
+====
+ tugallanmagan holatda
+====
+ aktiv bolmagan holatda
+====
+ aktiv holatda
+++++
+
+Aparat vositalar necha xil rejimda bo’lishi mumkin?
+====
+# 3
+====
+ 2
+====
+ 1
+====
+ 4
+++++
+
+Qurilma drayverining quyida keltirilgan qaysi funksiyasi dasturiy ta’minotga istisno tarzida boshqa  aparat ta’minotini boshqarishga imkon beradi?
+====
+# Hardware Acquire
+====
+ Hardware Enable
+====
+ Hardware Release
+====
+ Hardware Startup
+++++
+
+Aparat ta’minoti va operasion tizim o’rtasida o’rta pog’onada va dastur po’g’onasida aloqa qiluvchi qurilma qanday nomlanadi?
+====
+# qurilma drayveri
+====
+ kiritish/chiqarish qurilmasi
+====
+ prosessor
+====
+ modem
+++++
+
+Qaysi biri o’rnatilgan tizimning asosiy komponentasi hisoblanadi?
+====
+# Kontrollerlar
+====
+ Shinalar
+====
+ Mikroprosessor
+====
+ mikrokontroller
+++++
+
+Kontrollerning asosiy maqsadi nima? 
+====
+# Kontrollerning asosiy maqsadi nima?
+====
+ uzluksiz ta’monitni ta’minlab berish
+====
+ aloqa kanallarini boshqarish
+====
+ simsiz aloqa liniyalarini boshqarish
+++++
+
+Kontroller turlari
+====
+# ishlab chiqarish kontrollerlari, qurilmalar kontrolleri, bortovoy kontroller, integrasiyalangan bajarilishni boshqarish konrollerlari, dasturlash mantiqiy kontrollerlari, maxsus kontrollerlar
+====
+ tarmoq kontrolleri, ishlab chiqarish kontrolleri
+====
+ ma’lumotlat bazasini boshqarish kontrolleri
+====
+ intellektual tizimlarni boshqarish kontrolleri
+++++
+
+Kontrollerlar qanday xususiyatlarga yega?
+====
+# Nisbatan kichik aparat resursi, to’g’ridan-to’g’ri dasturlash imkoniyati yo’qligi, (ko’p hollarda) foydalanuvchi uchun interfeys yo’qligi, o’ziga xos foydalanilishi
+====
+ boshqarish uchun qulay va funksional interfeysi, real obektlarni boshqarish uchun katta funksional imkoniyati
+====
+ moslashuvchan, ishonchli, imkoniyat, yaxlitlik
+====
+ barcha javoblar to’g’ri
+++++
+
+Mikrokontroller bu-
+====
+# mikroprosessor yelementlar bazasida ishlovchi kontroller
+====
+ analog-raqamli o’zgartiruvchi qurilma
+====
+ demodulyator
+====
+ Raqamli-analog o’zgartiruvchi qurilma
+++++
+
+Kristaldagi tizim nima?
+====
+# prosessor bilan integrallashgan yagona kristaldagi tizim
+====
+ operativ xotira bilan integrallashgan yaqona kristaldagi tizim 
+====
+ xotira hajmi bilan integrallashgan yagona kristaldagi tizim
+====
+ qattiq disk bilan integrallshgan yagona kristaldagi tizim
+++++
+
+Quyidagi qaysi 3 ta tizimli blok  kristaldagi tizimni tashkil qiladi?
+====
+# prosessor, xotira, mantiq
+====
+ prosessor, mantiq, OZU 
+====
+ prosessor, OZU , shina
+====
+ prosessor, shina, analog-raqamli o’zgartirgich
+++++
+
+Markaziy prosessor nima?
+====
+# tizimni boshqarishning yeng asosiy yelementlaridan biri.
+====
+ ma’lumotlarni boshqarishning yeng asosiy yelementlaridan biri.
+====
+ Tizim bo’laklarining yeng asosiy yelementlaridan biri
+====
+ kengeshittirish tamoqlarining yeng asosiy yelementlaridan biri
+++++
+
+markaziy prosessor nimaga yo’naltirilgan
+====
+# boshqaruvga
+====
+ tizimning ma’lim yelementlariga ruxsatni ta’minlashga
+====
+ hisoblashlarni samaradorligini ta’minlashga
+====
+ uzluksiz ta’minotni ta’minlashga
+++++
+
+Prosessor yadrosi qanday sxema asosida qurilishi kerak?
+====
+# triggerlar bazasida qilingna saqlovchi yacheykalarga asoslangan  statik sxema asosida 
+====
+ j-k triggerlari bazasida qilingan saqlovchi yacheykalarga asoslangan statik sxema asosida
+====
+ R-S triggerlari bazasida qilingan saqlovchi yacheykalarga asoslangan statik sxema asosida
+====
+ T triggeri bazasida qilingan saqlovchi yacheykalarga asoslangan statik sxema asosida
+++++
+
+T triggeri bazasida qilingan saqlovchi yacheykalarga asoslangan statik sxema asosida
+====
+# harqanday yelektr sxema asosi
+====
+ uzluksizlikni ta’minlash
+====
+ zaxirani ta’minlash
+====
+ barcha javoblar to’g’ri
+++++
+
+Ta’minot yoqilgandan so’ng platada qanday jarayonlar ro’y beradi?
+====
+# o’tish jarayonlari
+====
+ statistik jarayonlar
+====
+ dinamik jarayonlar
+====
+ ma’lumot uzatish jarayonlari
+++++
+
+Ta’minotni boshqarish tizimi  ishlash jarayonida nimani tekshiradi?
+====
+# ta’minot zanjiridagi kuchlanish darajasini
+====
+ butun tizimdagi kuchanish darajasini
+====
+ chastota bo’laklaridagi kuchlanish darajasini
+====
+ demodulyator kuchlanish darajasini
+++++
+
+Nima sababdan katta hajmdagi operativ xotira va flesh xotira kontrollerga bog’lanadi?
+====
+# platadagi mikrosxemalar sonini kamaytirish uchun
+====
+ samaradorlikni oshirish va mikrokontroller ishlashini stabillashtirish uchun 
+====
+ bajarilayotgan topshiriqlar sonini oshirish uchun 
+====
+ barcha javoblar to’g’ri
+++++
+
+Chastotani fazaviy avtosozlash nima? 
+====
+# avtomatik boshqarish tizimi
+====
+ boshqaruvni nazorat qilish tizimi
+====
+ ta’minotni nazorat qilish tizmi
+====
+ xavfsizlikni nazorat qilish tizimi
+++++
+
+Energiya iste’molini kamaytirish zaruriy vositalari nima?
+====
+# Ayni vaqtda ishlamayotga bloklarni o’chirish
+====
+ ta’minotni muntazamlashtirish
+====
+ energiya sarfini boshqarish tizimlarini soddalshtirish
+====
+ elektr ta’minotidagi sarfni kamaytirish
+++++
+
+O’rnatilgan Flash-xotira vazifasi nima?
+====
+# dasturlarni  va nisbatan katta hajmdagi ma’lumotlarni saqlash
+====
+ har qnday kerakli ma’lumotni saqlash
+====
+ ma’lumotlarni saqlash va tizimni boshqarish
+====
+ kliyent-server tizimini tashkil qiluish
+++++
+
+O’rnatilgan energiyaga bog’liq bo’lmagan konfigurasion xotira nimaga mo’ljallangan?
+====
+# nisabatn katta bo’lmagan axborotlarni saqlash
+====
+ katta hajmdagi axborotlarni saqlash
+====
+ katta va kichik hajmdagi axborotlarni saqlash
+====
+ barcha javoblar to’g’ri
+++++
+
+Vaqt nazoratchisi nima?
+====
+# tizim muvaffaqqiyatsizliklariga qarshi himoya tizimi
+====
+ Ruxsatsiz kirishlardan himoya tizimi
+====
+ fizik tahdidlardan himoya tizmi
+====
+ DOS-hujumlardan himoya tizimi
+++++
+
+CAN (Control area network)
+====
+# sanoat tarmoqlari texnologiyasi
+====
+ lokal hisoblash tarmoqlari texnologiyasi
+====
+ kengeishittirish termolari texnologiyasi
+====
+ global ma’lumot uzatish texnologiyasi
+++++
+
+LCD Controller maqsadi nima?
+====
+# segment displeylari bilan ishlashni soddalashtirish uchun mo’ljallangan
+====
+ tizimni boshqarish bilan ishlash uchun mo’ljallangan
+====
+ sanoat tarmoqlari bilan ishlashni soddalashtirish uchun mo’ljallangan
+====
+ MBBT bilan ishlash uchun mo’ljallangan
+++++
+
+Hisoblash modeli bu-
+====
+# hisoblash tizimlari yelementlari o’rtasidagi qoidalar to’plami
+====
+ arifmetik logik tizim yelementlari o’rtasidagi qoidalar to’plami
+====
+ dinamik tizimlar yordamida hiosblash yelementlari o’rtasidagi qoidalar to’plami
+====
+ barcha javoblar to’g’ri
+++++
+
+Qaysi kengaytmalar C tilining mikrokontrollerlar uchun nostandart kengaytmaslariga kirmaydi
+====
+# GPU yadrosini ishga tushiruvchi spesifikatorlari
+====
+ overlay lar
+====
+ absolyut adreslash
+====
+ semafora
+++++
+
+Resurslarni taqsimlash va birgalikda ishlashini ta’minlashni boshqarish mexanizmi, bu-
+====
+# overlay
+====
+ patok
+====
+ semafora
+====
+ absolyut adreslash
+++++
+
+Tashqi murojaatlarga ruxsat yetilmagan mashina tilidagi dastur, bu-
+====
+# obekt moduli
+====
+ komponovshik
+====
+ moc-fayl
+====
+ plagin
+++++
+
+Qaysi maxsus format WindowsNT va yeskiroq OT kutubxonalarida foydalaniladi
+====
+# Portable Executable
+====
+ Intel HEX
+====
+ Common Objective File Format
+====
+ Executable and Linkable Format
+++++
+
+Taqsimlangan kutubxonalardagi qaysi format faqat xotira obrazini saqlashga xizmat qiladi
+====
+# Intel HEX
+====
+ Portable Executable
+====
+ Common Objective File Format
+====
+ Executable and Linkable Format
+++++
+
+Qaysi bazaviy operasiyalar C tilidagi fayllarda amal qilmaydi?
+====
+# Nusxalash
+====
+ O’qish
+====
+ Yaratish
+====
+ Yozish
+++++
+
+eng mos javobni tanlang. "xatolikni topishga yordam beruvchi instrumental vosita, bu-"
+====
+# interpretator
+====
+ chegarali o’qish mexanizmi
+====
+ interpretatorotladchik
+====
+ simulyator
+++++
+
+Dastur ishlashini baxolash – bu …
+====
+# Profilirovaniye
+====
+ Testirovaniye
+====
+ Otladka
+====
+ Kompilyasiya
+++++
+
+Berilgan vazifalar uchu tizmni tekshirish  – bu …
+====
+# Testlash
+====
+ Sayqallash
+====
+ Qo’llab quvvatlash
+====
+ Yaratish
+++++
+
+Vaqtinchalik harakterga yega bo’lgan defekt - bu..
+====
+# muvaffaqiyatsizlik( Sboy)
+====
+ rad yetish(Otkaz)
+====
+ vaqtinchalik tahlil
+====
+ tahlil
+++++
+
+Xatolikni topishga urinish, dasturni testlash uchun bajarish - bu
+====
+# verifikasiya
+====
+ simulyasiya
+====
+ validasiya
+====
+ yemulyasiya
+++++
+
+Qaysi vosita oddiy dasturlash uchun testlash imkonini beradi?
+====
+# simulyator
+====
+ instrumental mashina
+====
+ JTAG
+====
+ Iqlimli o’rnatish
+++++
+
+"Muloqot oynasidagi testlash afzalliklari:  "(ortiqchasini belgilang)
+====
+# test natijalariga ta’sir qiluvchi inson omili mavjudligi
+====
+ amalga oshirish uchun qulaylik
+====
+ arzon narxlarda amalga oshirish
+====
+ moslashuvchan yechimlar
+++++
+
+Jarayon deganda  nima  tushiniladi?
+====
+# bu holatlarni, hodisalarni, biror narsaning rivojlanish yo‘nalishini izchil o‘zgartirish
+====
+ bu bir jarayondan boshqasiga uzatiladigan ma’lumotlar ketma-ketligi bo`lib, ma’lumotlar oqimi atamasi odatda modellar oqimi yoki ma’lumotlar oqimlari tarmog‘ini hisoblash modeli doirasida qo‘llaniladi
+====
+ bu qurilmalar o’rtasidagi aloqalarni boshqasiga uzatiladigan jarayonlar  ketma-ketligi bo`lib, ma’lumotlar oqimi atamasi odatda modellar oqimi yoki ma’lumotlar oqimlari tarmog‘ini hisoblash modeli doirasida qo‘llaniladi
+====
+ Tabiatdagi barcha hodisalar
+++++
+
+Jarayonlar nima uchun  mo’ljallangan?
+====
+# Barcha javoblar to’g’ri
+====
+ Markaziy protsessor manbalarini bir nechta iste'molchilarga tarqatish; algoritmlarni bir-biridan ajratish (xotirani himoya qilish mexanizmi mavjud bo'lganda)
+====
+ bir vaqtning o'zida bir nechta qurilmalarga (ob'ektlarga) xizmat ko'rsatadigan algoritmlarni soddalashtirish.
+++++
+
+Oqimlarni hisoblash modeli nima?
+====
+# (data flow-ma’lumotlar oqimi) grafik shaklida taqdim etiladi, uning tugunlari jarayonlardir, boshqalari esa ma’lumotlar oqimidir
+====
+ ma’lumot oqimini o‘zgartirish uchun mo‘ljallangan hisoblash birligi. Jarayon hayotining boshlang‘ich va oxirgi bosqichiga ega. Jarayon vaqt o‘tishi bilan sodir bo‘ladi. Jarayonda ma’lumotlarni uzatishi, qabul qilishi yoki boshqa jarayonlarni boshqarishi mumkin. Jarayon quyidagilarga mo‘ljallangan
+====
+ Markaziy protsessor manbalarini bir nechta iste'molchilarga tarqatish;
+++++
+
+Ma’lumot uzatish mexanizmi nima?
+====
+# A va B javoblr to’g’ri
+====
+ umumiy xotira (ma’lumotlarni saqlash). Ma’lumotlar oqimi diagrammalarida va Pirbxay va Xatley real vaqt tizimlarini loyihalash strategiyalarida ishlatiladi
+====
+ navbat xabarlar, ma’lumotlar oqimi). Kann texnologik tarmoqlarida ishlatiladi
+====
+ Markaziy protsessor manbalarini bir nechta iste'molchilarga tarqatish
+++++
+
+O’rnatilgan tizimlarda deley(1000) nimani  anglatadi?
+====
+# Natijani 1000 ms davomida ushlab turish uchun
+====
+ 1000 sonini  chop etish uchun
+====
+ 1000 ta sxemada  dasturni  yozish  uchun
+====
+ 1000  marta sikl davom etishi uchun
+++++
+
+Raqamli kiritish chiqarish funksiyalarini toping?
+====
+# pinMode(); digitalWrite(); digitalRead()
+====
+ pinMode(pin, mode); Analog kirish / chiqish
+====
+ analogRead (); analogReference (); analogWrite ().
+====
+ Barcha javob to’g’ri
+++++
+
+Berilgan kiritish/chiqarish vazifasini bajarish uchun chiqish yoki kirish   pinlari qanday o`rnatiladi?
+====
+# pinMode(pin, mode); Analog kirish / chiqish
+====
+ pinMode(); digitalWrite(); digitalRead()
+====
+ analogRead ();  analogReference (); analogWrite ().
+====
+ Barcha javob to’g’ri
+++++
+
+Analog I/O funksiyalari ko’rsating?
+====
+# analogRead (); analogReference (); analogWrite ().
+====
+pinMode(pin, mode); Analog kirish / chiqish
+====
+ pinMode(); digitalWrite(); digitalRead()
+====
+ Barcha javob to’g’ri
+++++
+Real vaqt tizimlari: ushbu tizim: 
+====
+# turli texnika obyektlarini, masalan, mashina, sun’iy yo’ldosh va boshqalar kabi texnologik jarayonlarni boshqaradi
+==== 
+dasturni ishga tushirish va natijani olish bilan oldindan belgilangan vaqt oralig’iga bardosh bera oladi
+==== 
+dastur obyektning joriy holatiga ko’ra ijro uchun tanlangan
+====
+dasturni tanlash rejalashtirilgan ish jadvali bo’yicha amalga oshiriladi
+++++
+Segmentlar:
+====
+# axborotni bir xil turdagi saqlash va kirishni nazorat qilishni tashkil qilish
+====
+mantiqiy manzil maydonini jismoniy moslashtirish uchun qulaylik
+====
+alohida dastur proseduralarini saqlash
+====
+moslashtirish uchun qulaylik
+++++
+Statik qismlar bo’yicha xotirani ajratish:
+====
+# qattiq va harakatlanuvchi chegara qatlamlari
+==== 
+segmental xotira tashkil qilish
+==== 
+xotira-sahifa tashkil qilish
+==== 
+segmentli sahifa xotirasi tashkil qilish
+
+++++
+Tizimga parolsiz kirish huquqi mavjud, ammo kompyuter va operasion tizimni boshqarish bo’yicha hyech qanday imkoniyatga ega bo’lmagan foydalanuvchi turini ko’rsating
+====
+# gost
+====
+ foydalanuvchi
+==== 
+direktor
+==== 
+administrator
+++++
+Hardware bu?
+====
+# apparat ta’minot
+==== 
+dasturiy ta’minot
+==== 
+dasturiy modul
+==== 
+prosessor
+++++
+SOFTWARE-bu?
+====
+# dasturiy ta’minot
+==== 
+apparat ta’minot
+==== 
+yordam tizimi
+==== 
+hamma javob to’g’ri
+++++
+Virtual resurs bu-…
+====
+# foydalanuvchi tasavvur qilgan holda mavjud emas. Model sifatida virtual resurs dasturiy- apparat formada amalga oshiriladi.
+==== 
+foydalanuvchi tasavvur qilgan holda mavjud. Model sifatida virtual resurs moddiy-apparat formada amalga oshiriladi
+==== 
+foydalanuvchi tasavvur qilgan holda mavjud emas. Model sifatida virtual resurs qo’shimcha-apparat formada amalga oshiriladi.
+==== 
+foydalanuvchi tasavvur qilgan holda mavjud emas. Model sifatida virtual resurs yordamchi-apparat formada amalga oshiriladi
+
+++++
+Gibrid prosessor nima?
+====
+# ko’p yadroli prosessor va ko’p yadroli grafik prosessordan iborat prosessor
+==== 
+bir nechta kompyuter arxitekturasining buyrug’ini o’zgartiradigan prosessor
+==== 
+gibrid prosessor va tashqi qurilma
+==== 
+prosessor, turli xil operasion tizimlarga yega bo’lgan bir nechta kompyuterlarni tarmoqqa ulash
+++++
+Drayverlar – bu…
+====
+# tashqi qurilmalar o’rtasida ma’lumot almashish amallarni bajarish uchun moslashtirilgan maxsus dasturlar
+==== 
+ichki qurilmalar o’rtasida ma’lumot almashish amallarni bajarish uchun moslashtirilgan maxsus dasturlar
+==== 
+tashqi qurilmalar o’rtasida ma’lumot berish amallarni bajarish uchun moslashtirilgan maxsus dasturlar
+====
+ barcha qurilmalar o’rtasida ma’lumot uchirish amallarni bajarish uchun moslashtirilgan maxsus 
+++++
+Asosan, dasturchilar uchun mo‘ljallangan distributiv qaysi javobda?
+====
+# Debian
+==== 
+Fedora
+==== 
+OpenSUSE
+==== 
+Mageia	
+++++
+Dasturiy ta’minot deganda...
+# kompyuterning shu modelida bajarilishi mumkin bo‘lgan dasturlarni va dasturiy xujjatlarni o‘z ichiga olgan majmuani (komplektni) tushunamiz;	
+==== 
+dasturlash tillarini tushunamiz;
+==== 
+apparat ta’minotni tushunamiz;
+==== 
+dasturiy modellarni tushunamiz
+++++
+Dasturlar joylashgan katalog qaysi?
+====
+# user
+==== 
+bin
+==== 
+home
+==== 
+root
+++++
+Foydalanuvchi real apparatura bilan ish ko‘rishda mashina tilidan foydalanmasdan, qulay interfeysda ishlashi uchun
+====
+# operatsion tizim kengaytirilgan mashina, virual mashina sifatida xizmat qiladi;
+==== 
+operatsion tizim resurslarni boshqaruvchi sifatida xizmat qiladi;
+==== 
+dasturlarni boshqaruvchi sifatida xizmat qiladi
+==== 
+qurilmalarni boshqaruvchi sifatida xizmat qiladi
+++++
+Hozirda Unixning qanday turlari mavjud?
+====
+# ochiq, yopiq va pulli
+==== 
+distributivli
+==== 
+desktop
+==== 
+pro
+++++
+Real vaqt operatsion tizimlarining boshqa operatsion tizimlar bilan asosiy farqi nimada?
+====
+# Vaqt cheklovlari kafolatlangan
+==== 
+Vaqt cheklovlari kafolatlanmagan
+====
+ Ko’p oqimli qullab-quvvatlash
+==== 
+Intellectual interfeysga ega
+++++
+Avtomatlashtirilgan tizimlarning birlamchi avtomatik vositalariga nimalar kiradi?
+====
+# uzatgichlar, boshqaruvchilar, fizik kattaliklarni elektr signallariga o'zgatirgichlar)
+==== 
+kiritish/chiqarish modullari, ma'lumotlami yuborish kanallari, axborot shakllarini analoglidan raqamliga o'zgartirgichlar
+==== 
+mikroprotsessor va mikrokontroller tizimlari, signal ðrîtsåssîrlàri, dinamik jàràóîïlàr kechishini monitoring qilish tizimlari
+==== 
+Kabellar va monitoring qilish tizimlari
+++++
+Ovozli aloqa, multimediyali ishlov berish va tarmoq aloqasi uchun qanday ko’chma kompyuter tizimlari ishlatiladi?
+====
+# Mobil qurilmalar
+==== 
+kompyuter klasterlari
+==== 
+real vaqtda tizimlar
+==== 
+superkompyuterlar
+++++
+Operativ xotira nima?
+====
+# kompyuterning vaqtinchalik xotirasi, u kompyuter ishlayotgan paytda ma’lumotlar ustida amallarni bajaradigan va ularni saqlaydigan qurilma
+==== 
+kompyuterning doimiy xotirasi, u kompyuter ishlayotgan paytda ma’-lumotlar ustida amallarni bajaradigan va ularni saqlaydigan qurilma
+==== 
+kompyuter ishlayotgan paytda ma’lumotlar ustida amallarni bajaradigan va ularni saqlaydigan qurilma
+==== 
+kompyuter ishlayotgan paytda ma’lumotlar ustida amallarni bajaradigan qurilma
+++++
+Operasion tizim 2 ta asosiy funksiyani bajaradi
+====
+# foydalanuvchiga kengaytirilgan mashina sifatida va resurslarni boshqaruvchi sifatida xizmat qiladi.
+==== 
+resurslarni kuzatish va taqsimlash
+====
+foydalanuvchiga kamaytirilgan mashina sifatida va manbalarni boshqaruvchi sifatida xizmat qiladi.
+==== 
+foydalanuvchi uchun qulay interfeys va kodlarni yashirish
+++++
+Operasion tizim kengaytirilgan mashina sifatida
+====
+# foydalanuvchiga real apparatura bilan ishlash o’rniga qulay interfeys yaratadi
+==== 
+qurilmalar bilan to’g’ridan-to’g’ri ishlaydi
+==== 
+fayllar bilan to’g’ridan-to’g’ri ishlaydi
+==== 
+to’g’ri javob yo’q
+++++
+Operasion tizim yadrosi nima?
+====
+# operasion tizim bazasi, xotiraga bir marta o’rnatilgan va xotirada joylashgan
+==== 
+grafik foydalanuvchi interfeysi
+==== 
+foydalanuvchi jarayonlarini boshqarish dasturi
+==== 
+OS hisoblash resurslarini boshqarish
+++++
+Markaziy prosessor nimaga yo’naltirilgan
+====
+# boshqaruvga
+==== 
+tizimning ma’lim yelementlariga ruxsatni ta’minlashga
+==== 
+hisoblashlarni samaradorligini ta’minlashga
+==== 
+uzluksiz ta’minotni ta’minlashga
+++++
+Resurslarni taqsimlash va birgalikda ishlashini ta’minlashni boshqarish mexanizmi, bu-
+====
+# overlay
+==== 
+patok
+====
+semafora
+====
+absolyut adreslash
+++++
+Berilgan vazifalar uchu tizmni tekshirish  – bu …
+====
+#Testlash
+==== 
+Sayqallash
+==== 
+Qo’llab quvvatlash
+==== 
+Yaratish
+++++
+Bulutli hisob-kitobda ma'lumotlar  … da sqlanadi.
+====
+#Internetda
+====
+fleshkada
+====
+Kompyuter xotirasida
+====
+Kesh xotirada
+++++
+Bulutli hisob kitobda  yetkazib berish modeli?
+====
+#Tashqi serverlarni sotib olish
+====
+Internet orqali standart  internet protokollaridan foydalanish
+====
+Faqat foydalanish uchungina haq to'lash
+====
+Kengayuvchan, elastic dinamik & multi-user
+++++
+Bulutli hisob kitoobda Interfeys modeli
+====
+#Internet orqali standart  internet protokollaridan foydalanish
+====
+Tashqi serverlarni sotib olish
+====
+Faqat foydalanish uchungina haq to'lash
+====
+Kengayuvchan, elastik dinamik & multi-user
+++++
+Bulutli hisob kitoobda biznes modeli
+====
+#Faqat foydalanish uchungina haq to'lash
+====
+Internet orqali standart  internet protokollaridan foydalanish
+====
+Tashqi serverlarni sotib olish
+====
+Kengayuvchan, elastik dinamik & multi-user
+++++
+Bulutli hisob kitoobda texnologiya modeli
+====
+#Kengayuvchan, elastik dinamik & multi-user
+====
+Faqat foydalanish uchungina haq to'lash
+====
+Internet orqali standart  internet protokollaridan foydalanish
+====
+Tashqi serverlarni sotib olish
+++++
+Tijorat uchun mo'ljallangan cloudlar
+====
+#Microsoft, Amazon, 3tera …
+====
+Google, Amazon, word
+====
+Microsoft, Amazon, restarator
+====
+Microsoft, Amazon, Title
+++++
+Qaysi tizimda xavfsizlik darajasi yuqori darajada shakllantiriladi
+====
+#community cloud
+====
+private Cloud
+====
+public cloud
+====
+hybrid cloud
+++++
+Qaysi tizim public va private cloudning birlashtirilishidan
+hosil bo'lgan?
+====
+#hybrid cloud
+====
+community cloud
+====
+private Cloud
+====
+public cloud
+++++
+Agar tezkor xotira hajmidan katta hajmdagi dastur yuklanayotganda qanday maxsus mexanizm qo‘llaniladi?
+====
+#virtual xotira mexanizmi
+====
+tashqi xotira mexanizmi
+====
+bo‘sh xotira mexnizmi
+====
+statik xotira mexinizmi
+++++
+Amaliy dasturiy ta’minot 
+====
+#ma’lum ish joyida aniq masalalarni yechishga yordam beradigan dastur;
+====
+qurilmalarni ishlatuvchi;
+====
+hisoblash tizimini nazorat qiluvchi
+=====
+hamma javoblar to‘g‘ri
+++++
+Tushirib qoldirilgan so‘zni toping. Dastur – bu diskdagi ...
+====
+#fayl
+====
+matn
+====
+funktsiya
+====
+kod
+====
+++++
+... - belgilangan analog kirishdan qiymatni o'qiydi.
+====
+# analogRead()
+====
+pinMode()
+====
+digitalWrite()
+====
+aniqlash
+++++
+Rezistorning maqsadi nima?
+====
+#Oqim oqimiga qarshilik ko'rsatish, uning bir qismini issiqlikka aylantirish
+====
+Harorat bilan qarshilikni o'zgartiradi
+====
+Elektr energiyasini mexanik energiyaga aylantiradi
+====
+Yuqoridagilarning hech biri
+++++
+Turli xil bajaruvchi qurilmalarga osongina ulanadigan, robotlar, avtomatlashtirish qurilmalari va qurilmalarini yaratish imkonini beruvchi modul qanday nomlanadi?
+====
+#Arduino
+====
+Atmel
+====
+Hajmi
+====
+Portativ Mini Device PMD
+++++
+Qaysi mikrokontrollerlar Arduino platalarining asosi hisoblanadi:
+====
+#ATMEGA8 va ATMEGA168
+====
+Hitachi H8/3297
+====
+Hajmi
+====
+Intel 8051
+++++
+Arduino uno qaysi mikrokontrollerdan foydalanadi
+====
+#AtMEGA
+====
+Altera
+====
+Exynos
+====
+MediaTek
+++++
+LEDni o'chirish uchun qaysi funktsiyadan foydalaniladi:
+====
+#digitalWrite (ledPin, LOW);
+====
+digitalRead(ledPin, HIGH);
+====
+DigitalRead(Pin, HIGH);
+====
+raqamli o'qish (Pin, LOW)
+++++
+Arduino qaysi dasturlash tiliga asoslangan?
+====
+#C/C++
+====
+Java
+====
+Fiton
+====
+Assembler
+++++
+Rezistorning maqsadi nima?
+====
+#Oqim oqimiga qarshilik ko'rsating, uning bir qismini issiqlikka aylantiring
+====
+Haroratga qarab qarshilikni o'zgartiradi
+====
+Elektr energiyasini mexanik energiyaga aylantiradi
+====
+Yuqoridagilardan hech biri
+++++
+Arduino ishlab chiqish va monitoring muhiti
+====
+#Arduino IDE
+====
+Arduino-ni qayta ishlash
+====
+ArduSoftware
+====
+Arduino yaratish
+++++
+Prototiplash taxtasining nomi nima
+#breadboard
+====
+sxema taxtasi
+====
+qatlamli taxta
+====
+yuza
+++++
+Operatsion tizim buyruqlar qobig'i
+====
+#foydalanuvchi buyruqlarini operatsion tizim harakatlariga aylantiruvchi dastur;
+====
+foydalanuvchi buyruqlarini bajaradigan dastur;
+====
+operatsion tizimning foydalanuvchi buyruqlarini bajaradigan qismi}
+====
+operatsion tizimning foydalanuvchisi
+++++
+An'anaviy rezistordan farqli o'laroq, ........ atrofdagi yorug'lik darajasiga qarab o'z qarshiligini o'zgartirishi mumkin
+====
+#fotorezistor
+====
+tranzistor
+====
+LED
+====
+potentsiometr
+++++
+Servo bilan ishlash uchun qaysi kutubxonadan foydalaniladi?
+====
+¹servo.h
+====
+ServoEngine.h
+====
+ServP.h
+====
+SerCh.h
+++++
+...... elektr tebranishlarini kuchaytirish va hosil qilish uchun mo'ljallangan yarim o'tkazgichli qurilma deyiladi
+====
+#tranzistor
+====
+rele
+====
+potentsiometr
+====
+case
+++++
+MPS ga ketma-ket kodni uzatishning ikkita usulini ayting
+====
+#sinxron va asinxron
+====
+statik va dinamik
+====
+tez va sekin
+====
+uzilishlar bilan va uzilishlarsiz
+++++
+Internet of Things qanday sohalarda qo'llaniladi?
+====
+#tibbiyot, IT-soha, qishloq xo'jaligi, ta'lim, sanoat va boshqalar 
+====
+san'at, madaniyat, tog' sanoati, ijtimoiy soha
+====
+ijtimoiy soha, metallurgiya, avtosanoat
+====
+iqtisodiyot, san'at, harbiy
+++++
+IoT da qanday qurilmalar orqali tashkil qilinadi?
+====
+#rasberry pi4, arduino UNO
+====
+prosessor, monitor
+====
+kommutator, sv-modul
+====
+Poexab, NVR
+++++
+IoT da tarmoq texnologiyalari qaysilari qo'llanilishi mumkin?
+====
+#5G, LoraWAN, NGN
+====
+Bial-up, ADSL2, 2G 
+====
+3G, NFS, GSM
+====
+Bluetooth, IK-port, GPON
++++
+AWS IoT platformasi qanday xususiyatlarga ega?
+====
+#AWS IoT xavfsizlik, ma?lumotlarni shifrlash va qurilma ma?lumotlariga kirishni boshqarish kabi xizmatlarni o?z ichiga oladi. AWS IoT xavfsiz va tasdiqlangan bulutli infratuzilma va IoT tarmoqlari asosida qurilgan va milliardlab qurilmalar va trillionlab xabarlarni qamrab oladi. AWS IoT yakuniy yechimlarni yaratish uchun boshqa AWS xizmatlari bilan birlashadi
+====
+Ma'lumotlarni masofadan saqlash va IoT qurilmalarini boshqarish uchun ishlatiladi, bu ma'lumotlarni tarmoqdagi bir nechta qurilmalarga taqdim etadi
+====
+ob'ektlari tovarlarni kuzatish, joylashtirish, saralash va tashish uchun internetga ulangan robotlar
+====
+Raqamli va jismoniy infratuzilmaning doimiy monitoringi ish faoliyatini optimallashtirish, samaradorlikni oshirish va xavfsizlik xatarlarini kamaytirish
+++++
+IoT qurilma ta'minoti nima?
+====
+#boshqaruv prosessorlari, tashqi muhitdan turli signallarni qabul qiluvchi sensorlar, ma'lumotlarni qayat ishlaydigan va tahlil qiladigan periferik mashinalar
+====
+3D printer, operatsion tizim, driver
+====
+utilitlar, yadro modullari, RJ45
+====
+Ceriocontrol, IVMS4500, CPUID
+++++
+Mikrokontroller tushunchasiga ta'rif bering
+====
+#elektron qurilmalarni boshqarish uchun mo'ljallangan mikrosxema
+====
+elektr manbasi
+====
+elektr uzatgich
+====
+sovutish qurilmasi
+++++
+Mikrokontrollerning qanday turlari mavjud?
+====
+#o'rnatilgan 8-razryadli mikrokontroller, 16- va 32-razryadli mikrokontroller, raqamli signal prosessorlari 
+====
+STM32, Arduino Uno, AMT mikrokontrollerlari
+====
+Rasberry Pi, IntelCoreI7, SSD
+====
+SoftSwich, NVR, Poexab
+++++
+Kontrollerlar qanday xususiyatlarga yega?
+====
+# Nisbatan kichik aparat resursi, to’g’ridan-to’g’ri dasturlash imkoniyati yo’qligi, (ko’p hollarda) foydalanuvchi uchun interfeys yo’qligi, o’ziga xos foydalanilishi
+====
+ boshqarish uchun qulay va funksional interfeysi, real obektlarni boshqarish uchun katta funksional imkoniyati
+====
+ moslashuvchan, ishonchli, imkoniyat, yaxlitlik
+====
+ barcha javoblar to’g’ri
+++++
+
+Mikrokontroller bu-
+====
+# mikroprosessor yelementlar bazasida ishlovchi kontroller
+====
+ analog-raqamli o’zgartiruvchi qurilma
+====
+ demodulyator
+====
+ Raqamli-analog o’zgartiruvchi qurilma
+++++
+
+Kristaldagi tizim nima?
+====
+# prosessor bilan integrallashgan yagona kristaldagi tizim
+====
+ operativ xotira bilan integrallashgan yaqona kristaldagi tizim 
+====
+ xotira hajmi bilan integrallashgan yagona kristaldagi tizim
+====
+ qattiq disk bilan integrallshgan yagona kristaldagi tizim
+++++
+
+Quyidagi qaysi 3 ta tizimli blok  kristaldagi tizimni tashkil qiladi?
+====
+# prosessor, xotira, mantiq
+====
+ prosessor, mantiq, OZU 
+====
+ prosessor, OZU , shina
+====
+ prosessor, shina, analog-raqamli o’zgartirgich
+++++
+
+Markaziy prosessor nima?
+====
+# tizimni boshqarishning yeng asosiy yelementlaridan biri.
+====
+ ma’lumotlarni boshqarishning yeng asosiy yelementlaridan biri.
+====
+ Tizim bo’laklarining yeng asosiy yelementlaridan biri
+====
+ kengeshittirish tamoqlarining yeng asosiy yelementlaridan biri
+++++
+
+markaziy prosessor nimaga yo’naltirilgan
+====
+# boshqaruvga
+====
+ tizimning ma’lim yelementlariga ruxsatni ta’minlashga
+====
+ hisoblashlarni samaradorligini ta’minlashga
+====
+ uzluksiz ta’minotni ta’minlashga
+++++
+
+Prosessor yadrosi qanday sxema asosida qurilishi kerak?
+====
+# triggerlar bazasida qilingna saqlovchi yacheykalarga asoslangan  statik sxema asosida 
+====
+ j-k triggerlari bazasida qilingan saqlovchi yacheykalarga asoslangan statik sxema asosida
+====
+ R-S triggerlari bazasida qilingan saqlovchi yacheykalarga asoslangan statik sxema asosida
+====
+ T triggeri bazasida qilingan saqlovchi yacheykalarga asoslangan statik sxema asosida
+++++
+
+T triggeri bazasida qilingan saqlovchi yacheykalarga asoslangan statik sxema asosida
+====
+# harqanday yelektr sxema asosi
+====
+ uzluksizlikni ta’minlash
+====
+ zaxirani ta’minlash
+====
+ barcha javoblar to’g’ri
+++++
+
+Ta’minot yoqilgandan so’ng platada qanday jarayonlar ro’y beradi?
+====
+# o’tish jarayonlari
+====
+ statistik jarayonlar
+====
+ dinamik jarayonlar
+====
+ ma’lumot uzatish jarayonlari
+++++
+Jarayonlar nima uchun  mo’ljallangan?
+====
+# Barcha javoblar to’g’ri
+====
+ Markaziy protsessor manbalarini bir nechta iste'molchilarga tarqatish; algoritmlarni bir-biridan ajratish (xotirani himoya qilish mexanizmi mavjud bo'lganda)
+====
+ bir vaqtning o'zida bir nechta qurilmalarga (ob'ektlarga) xizmat ko'rsatadigan algoritmlarni soddalashtirish.
+++++
+
+Oqimlarni hisoblash modeli nima?
+====
+# (data flow-ma’lumotlar oqimi) grafik shaklida taqdim etiladi, uning tugunlari jarayonlardir, boshqalari esa ma’lumotlar oqimidir
+====
+ ma’lumot oqimini o‘zgartirish uchun mo‘ljallangan hisoblash birligi. Jarayon hayotining boshlang‘ich va oxirgi bosqichiga ega. Jarayon vaqt o‘tishi bilan sodir bo‘ladi. Jarayonda ma’lumotlarni uzatishi, qabul qilishi yoki boshqa jarayonlarni boshqarishi mumkin. Jarayon quyidagilarga mo‘ljallangan
+====
+ Markaziy protsessor manbalarini bir nechta iste'molchilarga tarqatish;
+++++
+
+Ma’lumot uzatish mexanizmi nima?
+====
+# A va B javoblr to’g’ri
+====
+ umumiy xotira (ma’lumotlarni saqlash). Ma’lumotlar oqimi diagrammalarida va Pirbxay va Xatley real vaqt tizimlarini loyihalash strategiyalarida ishlatiladi
+====
+ navbat xabarlar, ma’lumotlar oqimi). Kann texnologik tarmoqlarida ishlatiladi
+====
+ Markaziy protsessor manbalarini bir nechta iste'molchilarga tarqatish
+++++
+
+O’rnatilgan tizimlarda deley(1000) nimani  anglatadi?
+====
+# Natijani 1000 ms davomida ushlab turish uchun
+====
+ 1000 sonini  chop etish uchun
+====
+ 1000 ta sxemada  dasturni  yozish  uchun
+====
+ 1000  marta sikl davom etishi uchun
+++++
+
+Raqamli kiritish chiqarish funksiyalarini toping?
+====
+# pinMode(); digitalWrite(); digitalRead()
+====
+ pinMode(pin, mode); Analog kirish / chiqish
+====
+ analogRead (); analogReference (); analogWrite ().
+====
+ Barcha javob to’g’ri
+++++
+Mikrokontroller bu-
+====
+# mikroprosessor yelementlar bazasida ishlovchi kontroller
+====
+ analog-raqamli o’zgartiruvchi qurilma
+====
+ demodulyator
+====
+ Raqamli-analog o’zgartiruvchi qurilma
+++++
+
+Kristaldagi tizim nima?
+====
+# prosessor bilan integrallashgan yagona kristaldagi tizim
+====
+ operativ xotira bilan integrallashgan yaqona kristaldagi tizim 
+====
+ xotira hajmi bilan integrallashgan yagona kristaldagi tizim
+====
+ qattiq disk bilan integrallshgan yagona kristaldagi tizim
+++++
+
+Quyidagi qaysi 3 ta tizimli blok  kristaldagi tizimni tashkil qiladi?
+====
+# prosessor, xotira, mantiq
+====
+ prosessor, mantiq, OZU 
+====
+ prosessor, OZU , shina
+====
+ prosessor, shina, analog-raqamli o’zgartirgich
+++++
+
+Markaziy prosessor nima?
+====
+# tizimni boshqarishning yeng asosiy yelementlaridan biri.
+====
+ ma’lumotlarni boshqarishning yeng asosiy yelementlaridan biri.
+====
+ Tizim bo’laklarining yeng asosiy yelementlaridan biri
+====
+ kengeshittirish tamoqlarining yeng asosiy yelementlaridan biri
+++++
+
+markaziy prosessor nimaga yo’naltirilgan
+====
+# boshqaruvga
+====
+ tizimning ma’lim yelementlariga ruxsatni ta’minlashga
+====
+ hisoblashlarni samaradorligini ta’minlashga
+====
+ uzluksiz ta’minotni ta’minlashga
+++++
+Internet of Things nima?
+====
+#Internet qurilmalari (ang. Internet of Things  (IoT)) boshqa qurilmalar va tizimlar bilan ma'lumotlarni Internet orqali ulash va almashtirish uchun datchiklar, dasturiy ta'minot va boshqa texnologiyalar bilan o'rnatilgan fizik obyektlar ("things") tarmog'iga aytiladi
+====
+Real vaqt tizimida ishlovch qurilmalar
+====
+Aqlli uy
+====
+Aqlli shahar konsepsiyasi
+++++
+Internet of Things qanday sohalarda qo'llaniladi?
+====
+#tibbiyot, IT-soha, qishloq xo'jaligi, ta'lim, sanoat va boshqalar 
+====
+san'at, madaniyat, tog' sanoati, ijtimoiy soha
+====
+ijtimoiy soha, metallurgiya, avtosanoat
+====
+iqtisodiyot, san'at, harbiy
+++++
+IoT da qanday qurilmalar orqali tashkil qilinadi?
+====
+#rasberry pi4, arduino UNO
+====
+prosessor, monitor
+====
+kommutator, sv-modul
+====
+Poexab, NVR
+++++
+IoT da tarmoq texnologiyalari qaysilari qo'llanilishi mumkin?
+====
+#5G, LoraWAN, NGN
+====
+Bial-up, ADSL2, 2G 
+====
+3G, NFS, GSM
+====
+Bluetooth, IK-port, GPON
++++
+AWS IoT platformasi qanday xususiyatlarga ega?
+====
+#AWS IoT xavfsizlik, ma?lumotlarni shifrlash va qurilma ma?lumotlariga kirishni boshqarish kabi xizmatlarni o?z ichiga oladi. AWS IoT xavfsiz va tasdiqlangan bulutli infratuzilma va IoT tarmoqlari asosida qurilgan va milliardlab qurilmalar va trillionlab xabarlarni qamrab oladi. AWS IoT yakuniy yechimlarni yaratish uchun boshqa AWS xizmatlari bilan birlashadi
+====
+Ma'lumotlarni masofadan saqlash va IoT qurilmalarini boshqarish uchun ishlatiladi, bu ma'lumotlarni tarmoqdagi bir nechta qurilmalarga taqdim etadi
+====
+ob'ektlari tovarlarni kuzatish, joylashtirish, saralash va tashish uchun internetga ulangan robotlar
+====
+Raqamli va jismoniy infratuzilmaning doimiy monitoringi ish faoliyatini optimallashtirish, samaradorlikni oshirish va xavfsizlik xatarlarini kamaytirish
+markaziy prosessor nimaga yo’naltirilgan
+====
+# boshqaruvga
+====
+ tizimning ma’lim yelementlariga ruxsatni ta’minlashga
+====
+ hisoblashlarni samaradorligini ta’minlashga
+====
+ uzluksiz ta’minotni ta’minlashga
+++++
+
+Prosessor yadrosi qanday sxema asosida qurilishi kerak?
+====
+# triggerlar bazasida qilingna saqlovchi yacheykalarga asoslangan  statik sxema asosida 
+====
+ j-k triggerlari bazasida qilingan saqlovchi yacheykalarga asoslangan statik sxema asosida
+====
+ R-S triggerlari bazasida qilingan saqlovchi yacheykalarga asoslangan statik sxema asosida
+====
+ T triggeri bazasida qilingan saqlovchi yacheykalarga asoslangan statik sxema asosida
+++++
+
+T triggeri bazasida qilingan saqlovchi yacheykalarga asoslangan statik sxema asosida
+====
+# harqanday yelektr sxema asosi
+====
+ uzluksizlikni ta’minlash
+====
+ zaxirani ta’minlash
+====
+ barcha javoblar to’g’ri
+++++
+
+Ta’minot yoqilgandan so’ng platada qanday jarayonlar ro’y beradi?
+====
+# o’tish jarayonlari
+====
+ statistik jarayonlar
+====
+ dinamik jarayonlar
+====
+ ma’lumot uzatish jarayonlari
+
+
+  </pre>
+</body>
+</html>
